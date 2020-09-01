@@ -1,0 +1,17 @@
+.Home{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    background:transparent;
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
+    .addBtn{
+        background:#2b2d42;
+        color:#edf2f4;
+    }
+    .TodoItem{
+        width: 200px;
+        margin: 30px 10px;
+    }
+}

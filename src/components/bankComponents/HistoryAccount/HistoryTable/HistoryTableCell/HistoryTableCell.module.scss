@@ -1,0 +1,16 @@
+.HistoryTableCell{
+
+    padding: 5px;
+    border:2px solid #ddd;
+
+    position: relative;
+    height: 70px;
+    width: 120px;
+
+    small{
+        position: absolute;
+        top: 1px;
+        right: 1px;
+    }
+
+}

@@ -1,0 +1,33 @@
+.HeaderAccont{
+    background:rgb(24, 24, 24);
+    width: 260px;
+    padding: 30px 15px 0;
+    border-radius:5px;
+    margin: 15px auto;
+    color:#727272;
+    transition: all linear .3s;
+
+    position: relative;
+    
+    &:hover{
+        scale: 1.4;
+        color:#eee;
+    }
+    img{
+        width: 150px;
+        position: absolute;
+        top: -10px;
+        left: 10px;
+    }
+    h2{
+        font-weight: bold;
+        color:#eee;
+        margin: 10px 0;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+}

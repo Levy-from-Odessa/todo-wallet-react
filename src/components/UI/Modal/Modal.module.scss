@@ -1,0 +1,39 @@
+.Background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background:rgba($color: #8D99AE, $alpha: .4);
+}
+
+.Modal{
+    position: fixed;
+    top:90px;
+    left: 42%;
+    z-index: 100;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    background:#c70929;
+    padding: 30px 25px;
+  
+    span{
+        position: absolute;
+        top:3px;
+        right: 3px;
+
+    }
+    button{
+        margin-top: 20px;
+        padding: 10px 0 !important;
+
+    }
+    button:hover{
+        background:#eee;
+
+    }
+}

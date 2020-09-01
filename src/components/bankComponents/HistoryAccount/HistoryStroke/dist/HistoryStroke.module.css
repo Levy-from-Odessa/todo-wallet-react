@@ -1,0 +1,28 @@
+.HistoryStroke {
+  list-style: none;
+  width: 620px;
+  padding: 15px;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  margin: 7px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fa0f36;
+  position: relative;
+}
+.HistoryStroke .item {
+  width: 29%;
+  flex-grow: 1;
+}
+.HistoryStroke .description small {
+  font-size: 10px;
+}
+.HistoryStroke .description span {
+  display: block;
+}
+.HistoryStroke .time {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+}
