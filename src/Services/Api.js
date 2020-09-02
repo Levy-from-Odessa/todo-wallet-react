@@ -17,7 +17,6 @@ const Api = () => {
 export default {
   // make req with params
     getPersonalInfo({XToken}) {
-      console.log(XToken);
       return Api().get(`client-info`, {headers: {'X-Token':XToken}})
     },
     getPersonalHistory({from,to, XToken}) {

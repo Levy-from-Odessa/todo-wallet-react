@@ -20,7 +20,6 @@ const todoReducer = (state = initialState, {type, payload}) => {
           XToken: payload
         }
 
-
       case 'FETCH_PERSONAL_INFO_SUCCESS':
 
         return{
